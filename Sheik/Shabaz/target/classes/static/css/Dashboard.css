@@ -1,0 +1,167 @@
+/* CSS: styles.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Top Navigation Bar */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    gap: 1rem;
+}
+
+.menu-item {
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-item:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    color: #fff;
+    border-radius: 0.25rem;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.dropdown a {
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.dropdown a:hover {
+    background-color: #555;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 200px;
+    background-color: #222;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 1rem;
+    display: none;
+    flex-direction: column;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 1rem;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+.content {
+    margin-left: 220px;
+    padding: 2rem;
+    flex: 1;
+}
+
+/* Bottom Navigation Bar */
+.bottom-nav {
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.bottom-nav a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.bottom-nav a:hover {
+    color: #ccc;
+}
+
+.icon {
+    margin-right: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .menu-item:hover .dropdown {
+        position: static;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar {
+        display: block;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+
+    .bottom-nav ul {
+        flex-wrap: wrap;
+    }
+}
