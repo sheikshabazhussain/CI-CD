@@ -1,5 +1,8 @@
-/home/user/Documents/CHECKOUTS/practice/Sheik/Shabaz/src/main/java/com/shabaz/Controller/LoginController.java
-/home/user/Documents/CHECKOUTS/practice/Sheik/Shabaz/src/main/java/com/shabaz/Entity/Users.java
-/home/user/Documents/CHECKOUTS/practice/Sheik/Shabaz/src/main/java/com/shabaz/Repository/UserRepository.java
-/home/user/Documents/CHECKOUTS/practice/Sheik/Shabaz/src/main/java/com/shabaz/Service/UserService.java
-/home/user/Documents/CHECKOUTS/practice/Sheik/Shabaz/src/main/java/com/shabaz/ShabazApplication.java
+/home/user/Documents/CHECKOUTS/practice/CI/CI-CD/Sheik/Shabaz/src/main/java/com/shabaz/Controller/LoginController.java
+/home/user/Documents/CHECKOUTS/practice/CI/CI-CD/Sheik/Shabaz/src/main/java/com/shabaz/Entity/UserSession.java
+/home/user/Documents/CHECKOUTS/practice/CI/CI-CD/Sheik/Shabaz/src/main/java/com/shabaz/Entity/Users.java
+/home/user/Documents/CHECKOUTS/practice/CI/CI-CD/Sheik/Shabaz/src/main/java/com/shabaz/Repository/UserRepository.java
+/home/user/Documents/CHECKOUTS/practice/CI/CI-CD/Sheik/Shabaz/src/main/java/com/shabaz/Repository/UserSessionRepository.java
+/home/user/Documents/CHECKOUTS/practice/CI/CI-CD/Sheik/Shabaz/src/main/java/com/shabaz/Service/SessionService.java
+/home/user/Documents/CHECKOUTS/practice/CI/CI-CD/Sheik/Shabaz/src/main/java/com/shabaz/Service/UserService.java
+/home/user/Documents/CHECKOUTS/practice/CI/CI-CD/Sheik/Shabaz/src/main/java/com/shabaz/ShabazApplication.java
